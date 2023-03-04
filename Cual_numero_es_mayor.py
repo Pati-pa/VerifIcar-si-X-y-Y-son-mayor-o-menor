@@ -15,7 +15,10 @@ Y = int(input("INGRESE Y: "))
 print("-------------------------------")
 print("------------RESULTADO----------")
 print("-------------------------------")
-if X>Y:
-    print("El numero " + str(X) + " es mayor que el numero " + str(Y))
+if X==Y:
+    print("Son iguales")
 else:
-    print("El numero " + str(Y) + " es mayor que el numero " + str(X))
+    if X>Y:
+        print("El numero " + str(X) + " es mayor que el numero " + str(Y))
+    else:
+        print("El numero " + str(Y) + " es mayor que el numero " + str(X))
